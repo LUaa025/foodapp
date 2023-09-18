@@ -1,0 +1,59 @@
+.form-input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    min-height: 300px;
+    max-height: auto;
+}
+.form-child{
+    margin: 4px;
+}
+.form-input .form-child input, .form-input .form-child-invalid input {
+    padding: 12px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 12px;
+    border-color: #fff;
+}
+
+.form-input .form-child-invalid input{
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.483);
+}
+.form-child label , .form-child-invalid label{
+    display: inline-block;
+    width: 100px;
+    font-weight: 700;
+}
+.actions{
+    display: flex;
+    justify-content: end;
+}
+.actions button{
+    margin-left: 20px;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    background: rgb(153, 91, 211);
+}
+.actions button:nth-child(1):hover{
+    background-color: aquamarine;
+}
+.actions button:nth-child(2):hover{
+    background-color: rgb(233, 114, 114);
+}
+
+.actions button:disabled{
+    background: grey;
+    cursor: not-allowed;
+}
+
+.meldung{
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}

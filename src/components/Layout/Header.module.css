@@ -1,0 +1,24 @@
+.header{
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0  0 10px;
+    height: 100px;
+    width: 100%;
+    background: blueviolet;
+}
+
+
+.main-image{
+    height: 400px;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.main-image img{
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+}
